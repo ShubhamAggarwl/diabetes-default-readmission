@@ -122,7 +122,8 @@ Hospital readmissions for diabetes patients are a significant healthcare challen
    cd diabetes-readmission
    
 2. **Install Required Libraries**:
-- pip install pandas numpy matplotlib seaborn tensorflow scikit-learn
+   ```bash
+  pip install pandas numpy matplotlib seaborn tensorflow scikit-learn
 
 3. **Run the Notebook**:
 - jupyter notebook diabetes_readmission.ipynb
