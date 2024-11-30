@@ -113,6 +113,40 @@ Hospital readmissions for diabetes patients are a significant healthcare challen
 - CNN delivered the highest test accuracy of **0.8877**, successfully classifying all **17933 majority class instances**. However, it failed to detect any minority class instances, resulting in a precision, recall, and F1 score of **0.00** for the minority class.
 
 
+## Visualizations
+
+1. The countplots depict the distribution of `admission_type_id` and `admission_source_id` based on the readmission status. This helps identify variations between readmitted and non-readmitted patients.  
+   <img src="assets/images/Countplot for Admission Type and Source.png" alt="Countplot for Admission Type and Source" width="600">
+
+2. The distribution of key numerical features is shown through histograms, illustrating variability and skewness. These insights are critical for feature transformation during preprocessing.  
+   <img src="assets/images/Distribution of Numerical Features.png" alt="Distribution of Numerical Features" width="600">
+
+3. The confusion matrix for the Decision Tree model highlights its performance, showcasing a high number of true negatives while struggling to identify the positive class (readmitted patients).  
+   <img src="assets/images/DT-Confusion Matrix.png" alt="Decision Tree Confusion Matrix" width="400">
+
+4. A heatmap showing the correlation among numerical variables reveals relationships and redundancies within the dataset, aiding feature selection and engineering.  
+   <img src="assets/images/Heatmap of Numerical Values.png" alt="Heatmap of Numerical Values" width="600">
+
+5. The spider plot compares the performance metrics (accuracy, precision, recall, F1 score, and ROC AUC) across all models, providing a clear picture of each model's strengths and weaknesses.  
+   <img src="assets/images/Models Metrics Comparision (Spider Plot).png" alt="Models Metrics Comparision Spider Plot" width="500">
+
+6. A bar plot illustrates the comparative performance metrics for all models, offering a detailed view across accuracy, precision, recall, F1 score, and ROC AUC.  
+   <img src="assets/images/Models Metrics Comparision.png" alt="Models Metrics Comparision" width="600">
+
+7. The confusion matrix for the Neural Network model highlights its moderate success in predicting readmissions, though it still struggles with the positive class.  
+   <img src="assets/images/NN-Confusion Matrix.png" alt="Neural Network Confusion Matrix" width="400">
+
+8. A pair plot visualizes the relationships between selected numerical features and the target variable (`readmitted`), uncovering patterns and clusters in the data.  
+   <img src="assets/images/Pair Plot of Selected Features.png" alt="Pair Plot of Selected Features" width="600">
+
+9. Box plots demonstrate the distribution of categorical features against the target variable (`readmitted`), providing insights into how categorical features impact readmission.  
+   <img src="assets/images/Box Plot for Categorical Features vs Targets.png" alt="Box Plot for Categorical Features vs Targets" width="600">
+
+10. The confusion matrix for the CNN model highlights its superior ability to identify patterns in the data, achieving the highest test accuracy but failing to predict the minority class effectively.  
+    <img src="assets/images/CNN-Confusion Matrix.png" alt="CNN Confusion Matrix" width="400">
+
+
+
 ## How to Run the Project
 
 1. **Clone the Repository**:
