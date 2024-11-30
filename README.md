@@ -113,7 +113,6 @@ Hospital readmissions for diabetes patients are a significant healthcare challen
 - CNN delivered the highest test accuracy of **0.8877**, successfully classifying all **17933 majority class instances**. However, it failed to detect any minority class instances, resulting in a precision, recall, and F1 score of **0.00** for the minority class.
 
 
-
 ## How to Run the Project
 
 1. **Clone the Repository**:
@@ -123,9 +122,9 @@ Hospital readmissions for diabetes patients are a significant healthcare challen
    
 2. **Install Required Libraries**:
    ```bash
-  pip install pandas numpy matplotlib seaborn tensorflow scikit-learn
-
-3. **Run the Notebook**:
+     pip install pandas numpy matplotlib seaborn tensorflow scikit-learn
+     
+4. **Run the Notebook**:
 - jupyter notebook diabetes_readmission.ipynb
 
 4. **Review Results**:
