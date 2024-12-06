@@ -60,7 +60,7 @@ This countplot highlights the distribution of `admission_type_id` and `admission
 - Applied scaling using `MaxAbsScaler` to normalize numerical features.
 
 This histogram illustrates the distribution of key numerical features, showing variability and skewness.
-<img src="assets/images/Distribution of Numerical Features.png" alt="Distribution of Numerical Features" width="600">
+<img src="assets/images/numerical-features-distribution.png" alt="Distribution of Numerical Features" width="600">
 
 ### 2. Class Imbalance Handling
 - Incorporated `class_weight='balanced'` in Random Forest to address imbalance.
@@ -81,7 +81,7 @@ This histogram illustrates the distribution of key numerical features, showing v
   - **AUC-ROC** Model’s ability to distinguish between classes.  
 
 This heatmap visualizes the correlation among numerical variables, aiding feature selection and engineering.
-<img src="assets/images/Heatmap of Numerical Values.png" alt="Heatmap of Numerical Values" width="600">
+<img src="assets/images/numerical-values-heatmap.png" alt="Heatmap of Numerical Values" width="600">
 
 ## Results
 
@@ -95,12 +95,12 @@ This heatmap visualizes the correlation among numerical variables, aiding featur
 This spider plot compares the performance metrics across all models.
 
 <p align="left">
-    <img src="assets/images/Models Metrics Comparision (Spider Plot).png" alt="Models Metrics Comparision Spider Plot" width="500">
+    <img src="assets/images/model-metrics-spider-plot.png" alt="Models Metrics Comparision Spider Plot" width="500">
 </p>
 
 
 This bar plot shows the comparative performance metrics for all models.
-<img src="assets/images/Models Metrics Comparision.png" alt="Models Metrics Comparision" width="600">
+<img src="assets/images/model-metrics-comparison.png" alt="Models Metrics Comparision" width="600">
 
 ## Confusion Matrix Summary
 
@@ -114,18 +114,18 @@ This bar plot shows the comparative performance metrics for all models.
 This confusion matrix visualizes the Decision Tree model's performance.
 
 <p align="left">
-    <img src="assets/images/DT-Confusion Matrix.png" alt="Decision Tree Confusion Matrix" width="400">
+    <img src="assets/images/dt-confusion-matrix.png" alt="Decision Tree Confusion Matrix" width="400">
 </p>
 
 This confusion matrix visualizes the Random Forest model's performance.
 
-<img src="assets/images/RF-Confusion Matrix.png" alt="Random Forest Confusion Matrix" width="400">
+<img src="assets/images/rf-confusion-matrix.png" alt="Random Forest Confusion Matrix" width="400">
 
 This confusion matrix for the Neural Network model highlights its moderate success in predicting readmissions, though it still struggles with the positive class.  
-<img src="assets/images/NN-Confusion Matrix.png" alt="Neural Network Confusion Matrix" width="400">
+<img src="assets/images/nn-confusion-matrix.png" alt="Neural Network Confusion Matrix" width="400">
 
 This confusion matrix for the CNN model highlights its superior ability to identify patterns in the data, achieving the highest test accuracy but failing to predict the minority class effectively.  
-<img src="assets/images/CNN-Confusion Matrix.png" alt="CNN Confusion Matrix" width="400">
+<img src="assets/images/cnn-confusion-matrix.png" alt="CNN Confusion Matrix" width="400">
 
 ## Findings
 
